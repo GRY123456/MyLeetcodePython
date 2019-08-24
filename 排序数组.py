@@ -2,6 +2,7 @@ from typing import List
 
 
 # 快速排序
+
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         return self.q_sort(nums, 0, len(nums)-1)
