@@ -22,7 +22,7 @@ class Solution:
                 right_link -= 1
             else:
                 letf_link += 1
-        return [letf_link, right_link]
+        return [letf_link+1, right_link+1]
 
 
 if __name__ == "__main__":
